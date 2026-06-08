@@ -1,0 +1,9 @@
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/proyectoSO.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/edit_cache.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/rebuild_cache.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/list_install_components.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/install.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/install/local.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/install/strip.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/proyectoSO_autogen_timestamp_deps.dir
+/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/CMakeFiles/proyectoSO_autogen.dir

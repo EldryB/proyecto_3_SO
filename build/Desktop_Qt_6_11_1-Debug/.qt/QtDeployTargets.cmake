@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_proyectoSO_FILE /home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug/proyectoSO)
+set(__QT_DEPLOY_TARGET_proyectoSO_TYPE EXECUTABLE)

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-04231cb445e9a791499e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "proyectoSO",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "proyectoSO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proyectoSO-Debug-5d1d38e80ec38738962b.json",
+					"name" : "proyectoSO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proyectoSO_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proyectoSO_autogen-Debug-f6c68f9b4480ab0d88ae.json",
+					"name" : "proyectoSO_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proyectoSO_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proyectoSO_autogen_timestamp_deps-Debug-2af5a12b02e4b43a76e7.json",
+					"name" : "proyectoSO_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eldry/Documentos/qt/proyectoSO/build/Desktop_Qt_6_11_1-Debug",
+		"source" : "/home/eldry/Documentos/qt/proyectoSO"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
