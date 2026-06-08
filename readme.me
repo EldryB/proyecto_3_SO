@@ -1,18 +1,22 @@
+# Simulador de Planificación de Procesos
+
 Simulador interactivo desarrollado en **C++** y **Qt Widgets** que emula el comportamiento del planificador a corto plazo de un Sistema Operativo. Permite visualizar en tiempo real el ciclo de vida de los procesos y generar análisis matemáticos de rendimiento para diferentes algoritmos de planificación.
 
 Este proyecto fue desarrollado como parte de la cátedra de Sistemas Operativos (Ingeniería de Sistemas) en la Universidad de Los Andes (ULA).
 
+---
+
 ## ✨ Características Principales
 
-* **Generación Aleatoria:** Creación automática de lotes de procesos con ráfagas de CPU, tiempos de Entrada/Salida (E/S), prioridad y tiempos de llegada variables.
-* **Simulación en Tiempo Real:** Interfaz gráfica impulsada por eventos (`QTimer`) que muestra el avance del reloj del sistema tick a tick sin congelar la ventana.
-* **Control de Simulación:** Capacidad de iniciar, pausar y reutilizar el mismo lote de procesos para realizar comparaciones empíricas justas entre algoritmos.
-* **Reportes de Rendimiento:** Al finalizar cada simulación, el sistema calcula métricas clave:
-  * Porcentaje de uso real del Procesador.
-  * Tiempo promedio de espera.
-  * Tiempo promedio de ejecución (Retorno / Turnaround).
-  * Tiempo promedio en bloqueo (E/S).
-  * Rendimiento (Arribo de procesos por paso).
+- **Generación Aleatoria:** Creación automática de lotes de procesos con ráfagas de CPU, tiempos de Entrada/Salida (E/S), prioridad y tiempos de llegada variables.
+- **Simulación en Tiempo Real:** Interfaz gráfica impulsada por eventos (`QTimer`) que muestra el avance del reloj del sistema tick a tick sin congelar la ventana.
+- **Control de Simulación:** Capacidad de iniciar, pausar y reutilizar el mismo lote de procesos para realizar comparaciones empíricas justas entre algoritmos.
+- **Reportes de Rendimiento:** Al finalizar cada simulación, el sistema calcula métricas clave:
+  - Porcentaje de uso real del Procesador.
+  - Tiempo promedio de espera.
+  - Tiempo promedio de ejecución (Retorno / Turnaround).
+  - Tiempo promedio en bloqueo (E/S).
+  - Rendimiento (Arribo de procesos por paso).
 
 ## 🧠 Algoritmos Implementados
 
@@ -32,8 +36,9 @@ El motor lógico soporta 7 algoritmos de planificación divididos en dos categor
 ## 🏗️ Arquitectura del Software
 
 El proyecto sigue estrictamente el patrón **Modelo-Vista-Controlador (MVC)** para garantizar escalabilidad:
-* **Motor Lógico (`Planificador.cpp`, `Proceso.h`):** Totalmente agnóstico de la interfaz. Modela los procesos como autómatas finitos (Listo, Ejecutando, Bloqueado, Terminado) y procesa los cálculos matemáticos utilizando vectores optimizados.
-* **GUI (`mainwindow.cpp`):** Maneja los layouts dinámicos, la actualización de la tabla QTableWidget y la sincronización asíncrona del reloj gráfico.
+
+- **Motor Lógico (`Planificador.cpp`, `Proceso.h`):** Totalmente agnóstico de la interfaz. Modela los procesos como autómatas finitos (Listo, Ejecutando, Bloqueado, Terminado) y procesa los cálculos matemáticos utilizando vectores optimizados.
+- **GUI (`mainwindow.cpp`):** Maneja los layouts dinámicos, la actualización de la tabla QTableWidget y la sincronización asíncrona del reloj gráfico.
 
 ## 🚀 Instalación y Ejecución
 
@@ -41,9 +46,12 @@ Para compilar y ejecutar este proyecto localmente, necesitas tener instalado el 
 
 1. Clona este repositorio:
    ```bash
-   git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-   ```
-2. Abre el software **Qt Creator**.
-3. Selecciona `File` > `Open File or Project...` y elige el archivo `CMakeLists.txt` (o `.pro` si estás usando qmake) en la raíz del proyecto clonado.
-4. Selecciona tu kit de compilación (ej. *Desktop Qt 6.x.x GCC 64-bit*).
-5. Presiona el botón verde de **Run** (o `Ctrl+R`) para compilar y ejecutar el simulador.
+   git clone LINK DEL REPOSITORIO
+
+2.Abre el software Qt Creator.
+
+3.Selecciona File → Open File or Project... y elige el archivo CMakeLists.txt (o .pro si estás usando qmake) en la raíz del proyecto clonado.
+
+4.Selecciona tu kit de compilación (ej. *Desktop Qt 6.x.x GCC 64-bit*).
+
+5.Presiona el botón verde de Run (o Ctrl+R) para compilar y ejecutar el simulador
